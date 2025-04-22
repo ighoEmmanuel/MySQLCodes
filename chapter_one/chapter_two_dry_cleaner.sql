@@ -33,9 +33,11 @@ select avg(TotalAmount) from invoice;
 select count(CustomerID) from customer;
 
 -- K
-select LastName , FirstName from customer group by LastName,FirstName
+select LastName , FirstName from customer group by LastName,FirstName;
 
 -- L
+SELECT LastName, FirstName, COUNT(*) AS customer_count FROM customer GROUP BY LastName, FirstName;
+
 
 
 
